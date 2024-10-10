@@ -15,6 +15,8 @@ public class Books {
     @Id()
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+
+    // Name will be the name of the book and not the author
     private String name;
     private String author;
 }
